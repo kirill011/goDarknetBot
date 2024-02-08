@@ -1,0 +1,17 @@
+goDark
+├── go.mod
+├── go.sum
+├── internal
+│   ├── bot
+│   │   └── bot.go
+│   ├── cache
+│   ├── config
+│   │   ├── arialmt.ttf
+│   │   ├── config.go
+│   │   ├── config.yaml
+│   │   ├── obj.names
+│   │   ├── yolov3-tiny-my.cfg
+│   │   └── yolov3-tiny-my_last.weights
+│   └── detector
+│       └── detector.go
+└── main.go
