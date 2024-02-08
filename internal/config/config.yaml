@@ -1,4 +1,4 @@
-apiKey: 6777278635:AAG7ViHwyL4gFQzRmjWezkIITkD1LB8FYJg
+apiKey: YourTelegramApiKey
 fontPath: internal\config\arialmt.ttf
 configPath: internal\config\yolov3-tiny-my.cfg
 weightsPath: internal\config\yolov3-tiny-my_last.weights
