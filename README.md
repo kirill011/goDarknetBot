@@ -14,7 +14,11 @@ Telegram-бот для детектирования объектов на изо
 + boat
 
 ## Запуск 
-+ Отредактируйте apiKey и другие параметры в файле ../internal/config/config.yaml
+1. Устапновите [CUDA toolkit](https://developer.nvidia.com/cuda-toolkit) с официального сайта
+2. Установите [Darknet](https://github.com/pjreddie/darknet)
+3. Установите  [go-darknet](https://github.com/LdDl/go-darknet)
+4. Отредактируйте файл go-darknet/darknet.go. Установите пути к дирректориям CUDA и darknet
+5. Отредактируйте apiKey и другие параметры в файле ../internal/config/config.yaml
 + Запустите 
   ``` cmd
   go run main.go
